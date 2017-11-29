@@ -1,4 +1,7 @@
-create table customer
+CREATE DATABASE IF NOT EXISTS `testwork`;
+USE `testwork`;
+
+create table IF NOT EXISTS customer
 (
 	id bigint auto_increment
 		primary key,
@@ -7,7 +10,7 @@ create table customer
 )
 ;
 
-create table traffic
+create table IF NOT EXISTS  traffic
 (
 	id bigint auto_increment
 		primary key,
